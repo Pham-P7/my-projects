@@ -1,0 +1,8 @@
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello + Name\Hello + Name\bin\Debug\Hello + Name.exe.config
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello + Name\Hello + Name\bin\Debug\Hello + Name.exe
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello + Name\Hello + Name\bin\Debug\Hello + Name.pdb
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello + Name\Hello + Name\obj\Debug\Hello + Name.csproj.AssemblyReference.cache
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello + Name\Hello + Name\obj\Debug\Hello + Name.csproj.SuggestedBindingRedirects.cache
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello + Name\Hello + Name\obj\Debug\Hello + Name.csproj.CoreCompileInputs.cache
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello + Name\Hello + Name\obj\Debug\Hello + Name.exe
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello + Name\Hello + Name\obj\Debug\Hello + Name.pdb
