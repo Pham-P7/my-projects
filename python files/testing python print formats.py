@@ -1,2 +1,2 @@
-answer = "big wide"
-print(f"hello {answer} world")
+answer = input("what is your name?")
+print(f"hello {answer}")
