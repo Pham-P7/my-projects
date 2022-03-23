@@ -1,2 +1,2 @@
-answer = "giant"
-print(f"hello {1} world",answer)
+answer = "big wide"
+print(f"hello {answer} world")
