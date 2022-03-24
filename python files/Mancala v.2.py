@@ -19,6 +19,9 @@ def PrintGrid():
     print(f" {P2G} ================================ {P2G}")
     print(f"   || {P21} || {P22} || {P23} || {P24} || {P25} || {P26} || P1")
 PrintGrid()
-Turn = True 
-while Turn:
-    print 
+while True:
+    Turn = True
+    #player 1 turn 
+    while Turn == True:
+        PrintGrid()
+        
