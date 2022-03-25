@@ -35,12 +35,14 @@ while True:
         Valid = "Filler"
         if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
             valid = True
+            InHand = player1list[playerChoice - 1]
         else:
             valid = False
         while Valid == False:
             playerChoice = int(input("invalid position please pick another"))
             if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
                 valid = True
+                InHand = player1list[playerChoice - 1]
             else:
                 valid = False
-        
+        while 
