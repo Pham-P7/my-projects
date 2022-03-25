@@ -40,74 +40,74 @@ def FirstPickMarbles():
     if pit == 1:
         Inhand = P11
         P11 = 0
-    elif pit == 2:
+    if pit == 2:
         Inhand = P12
         P12 = 0
-    elif pit == 3:
+    if pit == 3:
         Inhand = P13
         P13 = 0
-    elif pit == 4:
+    if pit == 4:
         Inhand = P14
         P14 = 0
-    elif pit == 5:
+    if pit == 5:
         Inhand = P15
         P15 = 0
-    elif pit == 6:
+    if pit == 6:
         Inhand = P16
         P16 = 0
-    elif pit == 8:
+    if pit == 8:
         Inhand = P21
         P21 = 0
-    elif pit == 9:
+    if pit == 9:
         Inhand = P22
         P22 = 0
-    elif pit == 10:
+    if pit == 10:
         Inhand = P23
         P23 = 0
-    elif pit == 11:
+    if pit == 11:
         Inhand == P24
         P24 = 0
-    elif pit == 12:
+    if pit == 12:
         Inhand == P25
         P25 = 0
-    elif pit == 14:
+    if pit == 14:
         Inhand == P26
         P26 = 0 
 def SecondPickMarbles():
     if pit == 1:
         Inhand = P21
         P21 = 0
-    elif pit == 2:
+    if pit == 2:
         Inhand = P22
         P22 = 0
-    elif pit == 3:
+    if pit == 3:
         Inhand = P23
         P23 = 0
-    elif pit == 4:
+    if pit == 4:
         Inhand = P24
         P24 = 0
-    elif pit == 5:
+    if pit == 5:
         Inhand = P25
         P25 = 0
-    elif pit == 6:
+    if pit == 6:
         Inhand = P26
         P26 = 0
-    elif pit == 8:
+    if pit == 8:
         Inhand = P11
         P11 = 0
-    elif pit == 9:
+    if pit == 9:
         Inhand = P12
         P12 = 0
-    elif pit == 10:
+    if pit == 10:
         Inhand = P13
         P13 = 0
-    elif pit == 11:
+    if pit == 11:
         Inhand == P14
         P14 = 0
-    elif pit == 12:
+    if pit == 12:
         Inhand == P15
         P15 = 0
-    elif pit == 14:
+    if pit == 14:
         Inhand == P16
         P16 = 0 
 def Player1Droping():
@@ -115,29 +115,29 @@ def Player1Droping():
     pit += 1
     if pit == 2:
         P12 += 1
-    elif pit == 3:
+    if pit == 3:
         P13 += 1
-    elif pit == 4:
+    if pit == 4:
         P14 += 1
-    elif pit == 5:
+    if pit == 5:
         P15 += 1
-    elif pit == 6:
+    if pit == 6:
         P16 += 1
-    elif pit == 7: #added to our Goal 
+    if pit == 7: #added to our Goal 
         P1G += 1
-    elif pit == 8:
+    if pit == 8:
         P21 += 1
-    elif pit == 9:
+    if pit == 9:
         P22 += 1
-    elif pit == 10:
+    if pit == 10:
         P23 += 1
-    elif pit == 11:
+    if pit == 11:
         P24 += 1
-    elif pit == 12:
+    if pit == 12:
         P25 += 1
-    elif pit == 13:
+    if pit == 13:
         P26 += 1
-    elif pit == 14: #skipped their Goal
+    if pit == 14: #skipped their Goal
         P11 += 1
         pit = 1
 def Player2Droping():
@@ -145,29 +145,29 @@ def Player2Droping():
     pit += 1
     if pit == 2:
         P22 += 1
-    elif pit == 3:
+    if pit == 3:
         P23 += 1
-    elif pit == 4:
+    if pit == 4:
         P24 += 1
-    elif pit == 5:
+    if pit == 5:
         P25 += 1
-    elif pit == 6:
+    if pit == 6:
         P26 += 1
-    elif pit == 7: #added to our Goal 
+    if pit == 7: #added to our Goal 
         P2G += 1
-    elif pit == 8:
+    if pit == 8:
         P11 += 1
-    elif pit == 9:
+    if pit == 9:
         P12 += 1
-    elif pit == 10:
+    if pit == 10:
         P13 += 1
-    elif pit == 11:
+    if pit == 11:
         P14 += 1
-    elif pit == 12:
+    if pit == 12:
         P15 += 1
-    elif pit == 13:
+    if pit == 13:
         P16 += 1
-    elif pit == 14: #skipped their Goal
+    if pit == 14: #skipped their Goal
         P21 += 1
         pit = 1
 Turn = True
