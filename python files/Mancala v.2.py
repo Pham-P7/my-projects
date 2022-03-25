@@ -1,6 +1,4 @@
-from tracemalloc import stop
-
-
+Valid = ""
 Winner = 0
 P1G = 0 #rightside player 1
 P2G = 0 #leftside player 2
@@ -31,15 +29,14 @@ def PrintPlayer2Grid():
     print(f"   || {P21} || {P22} || {P23} || {P24} || {P25} || {P26} || P2")
 print("checkmark")
 def PitFinder():
-    if Turn == True:
-        if playerChoice in range(0,6):
-            return playerChoice
-        if playerChoice == 7:
-            return 7
-        if playerChoice in range(7,14):
-            return playerChoice
-        if playerChoice == 14:
-            return 14
+    if playerChoice in range(0,6):
+        return playerChoice
+    if playerChoice == 7:
+        return 7
+    if playerChoice in range(7,14):
+        return playerChoice
+    if playerChoice == 14:
+        return 14
 def FirstPickMarbles():
     global P11
     global P12
@@ -198,7 +195,7 @@ def Player2Droping():
     global P14
     global P15
     global P16
-    global P2G
+    global P1G
     global P21
     global P22
     global P23
@@ -249,7 +246,6 @@ while Turn == True:
             break
     PrintPlayer1Grid()
     playerChoice = int(input("what slot will you pick? 1 - 6: "))
-    Valid = "Filler"
     if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
         valid = True
     else:
@@ -268,6 +264,7 @@ while Turn == True:
         if pit == 7:
             playerChoice = int(input("please pick another: "))
         else:
+            pit = PitFinder()
             FirstPickMarbles()
             if Inhand <= 1:
                 Turn = not Turn
@@ -299,9 +296,9 @@ while Turn == False:
             valid = True
         else:
             valid = False
-    pit = PitFinder()
-    Inhand = SecondPickMarbles()
     while Inhand != 0:
+        pit = PitFinder()
+        Inhand = SecondPickMarbles()
         Player2Droping()
     while Inhand == 0:
         if pit == 7:
