@@ -6,3 +6,5 @@ print(list)
 if list == [4,1,8]:
     answer = "yes"
 print(answer)
+list[2] = 0
+print(P13)

@@ -20,8 +20,14 @@ def PrintGrid():
     print(f"P2 || {P26} || {P25} || {P24} || {P23} || {P22} || {P21} || ")
     print(f" {P2G} ================================ {P1G}")
     print(f"   || {P21} || {P22} || {P23} || {P24} || {P25} || {P26} || P1")
+def PitFinder():
+    if Turn == True:
+        if playerChoice in range(0,7):
+            return playerChoice
+        if playerChoice == 7:
+            return "goal 1"
+Turn = True
 while True:
-    Turn = True
     #player 1 turn 
     while Turn == True:
         if player1list or player2list == [0,0,0,0,0,0]:
@@ -36,6 +42,7 @@ while True:
         if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
             valid = True
             InHand = player1list[playerChoice - 1]
+            player1list[playerChoice - 1] = 0
         else:
             valid = False
         while Valid == False:
@@ -43,6 +50,8 @@ while True:
             if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
                 valid = True
                 InHand = player1list[playerChoice - 1]
+                player1list = player1list[player1list - 1] = 0
             else:
                 valid = False
-        while 
+        while InHand != 0:
+            InHand -= 1
