@@ -79,9 +79,7 @@ def SecondPickMarbles():
 def Player1Droping():
     Inhand -= 1
     pit += 1
-    if pit == 1:
-        P11 += 1
-    elif pit == 2:
+    if pit == 2:
         P12 += 1
     elif pit == 3:
         P13 += 1
@@ -91,6 +89,24 @@ def Player1Droping():
         P15 += 1
     elif pit == 6:
         P16 += 1
+    elif pit == 7: #add to P1 Goal 
+        P1G += 1
+    elif pit == 8:
+        P21 += 1
+    elif pit == 9:
+        P22 += 1
+    elif pit == 10:
+        P23 += 1
+    elif pit == 11:
+        P24 += 1
+    elif pit == 12:
+        P25 += 1
+    elif pit == 13:
+        P26 += 1
+    elif pit == 14:
+        P11 += 1
+        pit = 1
+    
 Turn = True
 while True:
     #player 1 turn 
@@ -109,7 +125,7 @@ while True:
         else:
             valid = False
         while Valid == False:
-            playerChoice = int(input("invalid position please pick another"))
+            playerChoice = int(input("invalid position please pick another: "))
             if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
                 valid = True
             else:
@@ -117,7 +133,8 @@ while True:
         pit = PitFinder()
         FirstPickMarbles()
         while Inhand != 0:
-
+            Player1Droping()
+        if Inhand == 0:
     #player 2 turn
     while Turn == False:
         if player1list or player2list == [0,0,0,0,0,0]:
