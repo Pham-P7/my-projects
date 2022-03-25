@@ -98,7 +98,15 @@ while True:
             else:
                 valid = False
         pit = PitFinder()
-    if Stop == False:
+    #player 2 turn
+    while Turn == False:
+        if player1list or player2list == [0,0,0,0,0,0]:
+            Stop = True
+        else:
+            Stop = False
+        if Stop == True:
+            break
+    if Stop == True:
         if P1G > P2G:
             Winner = 1
         elif P1G < P2G:
