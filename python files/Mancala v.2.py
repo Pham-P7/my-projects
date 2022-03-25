@@ -89,7 +89,7 @@ def Player1Droping():
         P15 += 1
     elif pit == 6:
         P16 += 1
-    elif pit == 7: #add to P1 Goal 
+    elif pit == 7: #added to our Goal 
         P1G += 1
     elif pit == 8:
         P21 += 1
@@ -103,7 +103,7 @@ def Player1Droping():
         P25 += 1
     elif pit == 13:
         P26 += 1
-    elif pit == 14:
+    elif pit == 14: #skipped their Goal
         P11 += 1
         pit = 1
     
