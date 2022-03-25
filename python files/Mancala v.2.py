@@ -265,11 +265,11 @@ while Turn == True:
             playerChoice = int(input("please pick another: "))
         else:
             pit = PitFinder()
-            FirstPickMarbles()
-            if Inhand <= 1:
+            if player1list[pit - 1] <= 1:
                 Turn = not Turn
                 break
             else:
+                FirstPickMarbles()
                 Player1Droping()
     #player 2 turn
 while Turn == False:
@@ -298,17 +298,18 @@ while Turn == False:
             valid = False
     while Inhand != 0:
         pit = PitFinder()
-        Inhand = SecondPickMarbles()
+        SecondPickMarbles()
         Player2Droping()
     while Inhand == 0:
         if pit == 7:
             playerChoice = int(input("Take another turn 1 - 6: "))
         else:
-            SecondPickMarbles()
-            if Inhand <= 1:
+            PitFinder()
+            if player2list[pit - 1] <= 1:
                 Turn = not Turn
                 break
             else:
+                SecondPickMarbles()
                 Player2Droping()
 if Stop == True:
     if Winner == 1:
