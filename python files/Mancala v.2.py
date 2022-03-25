@@ -1,3 +1,6 @@
+from logging import PlaceHolder
+
+
 P1G = 0 #rightside player 1
 P2G = 0 #leftside player 2
 #player 1
@@ -34,6 +37,7 @@ def PitFinder():
             return playerChoice
         if playerChoice == 13:
             return "goal 2"
+Inhand = "Filler"
 def FirstPickMarbles():
     if pit == 1:
         Inhand = P11
@@ -72,6 +76,21 @@ def SecondPickMarbles():
     elif pit == 6:
         Inhand = P26
         P26 = 0
+def Player1Droping():
+    Inhand -= 1
+    pit += 1
+    if pit == 1:
+        P11 += 1
+    elif pit == 2:
+        P12 += 1
+    elif pit == 3:
+        P13 += 1
+    elif pit == 4:
+        P14 += 1
+    elif pit == 5:
+        P15 += 1
+    elif pit == 6:
+        P16 += 1
 Turn = True
 while True:
     #player 1 turn 
@@ -93,10 +112,12 @@ while True:
             playerChoice = int(input("invalid position please pick another"))
             if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
                 valid = True
-                pit = PitFinder()
-                FirstPickMarbles()
             else:
                 valid = False
+        pit = PitFinder()
+        FirstPickMarbles()
+        while Inhand != 0:
+
     #player 2 turn
     while Turn == False:
         if player1list or player2list == [0,0,0,0,0,0]:
