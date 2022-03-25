@@ -1,5 +1,8 @@
-board = [[4,4,4,4,4,4],[4,4,4,4,4,4]]
-slot = int(input("number"))
-slot = int(slot - 1)
-board[1][slot] = board[1][slot] + 1
-print(board)
+P12 = 4
+P11 = 1
+P13 = 8
+list = [P12,P11,P13]
+print(list)
+if list == [4,1,8]:
+    answer = "yes"
+print(answer)
