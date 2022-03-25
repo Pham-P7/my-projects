@@ -93,11 +93,10 @@ while True:
             playerChoice = int(input("invalid position please pick another"))
             if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
                 valid = True
-                InHand = player1list[playerChoice - 1]
-                player1list = player1list[player1list - 1] = 0
+                pit = PitFinder()
+                FirstPickMarbles()
             else:
                 valid = False
-        pit = PitFinder()
     #player 2 turn
     while Turn == False:
         if player1list or player2list == [0,0,0,0,0,0]:
