@@ -17,8 +17,8 @@ P26 = 4
 player1list = [P11,P12,P13,P14,P15,P16]
 player2list = [P21,P22,P23,P24,P25,P26]
 def PrintGrid():
-    print(f"P2 || {P21} || {P22} || {P23} || {P24} || {P25} || {P26} || ")
-    print(f" {P2G} ================================ {P2G}")
+    print(f"P2 || {P26} || {P25} || {P24} || {P23} || {P22} || {P21} || ")
+    print(f" {P2G} ================================ {P1G}")
     print(f"   || {P21} || {P22} || {P23} || {P24} || {P25} || {P26} || P1")
 while True:
     Turn = True
@@ -31,10 +31,16 @@ while True:
         if Stop == True:
             break
         PrintGrid()
-        playerChoice = int(input("what slot will you pick?"))
-        Valid = False 
+        playerChoice = int(input("what slot will you pick? 1- 6"))
+        Valid = "Filler"
+        if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
+            valid = True
+        else:
+            valid = False
         while Valid == False:
-            if playerChoice not in range(0,6):
-                Valid = False 
-                
+            playerChoice = int(input("invalid position please pick another"))
+            if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
+                valid = True
+            else:
+                valid = False
         
