@@ -14,14 +14,27 @@ P23 = 4
 P24 = 4
 P25 = 4
 P26 = 4
+player1list = [P11,P12,P13,P14,P15,P16]
+player2list = [P21,P22,P23,P24,P25,P26]
 def PrintGrid():
     print(f"P2 || {P21} || {P22} || {P23} || {P24} || {P25} || {P26} || ")
     print(f" {P2G} ================================ {P2G}")
     print(f"   || {P21} || {P22} || {P23} || {P24} || {P25} || {P26} || P1")
-PrintGrid()
 while True:
     Turn = True
     #player 1 turn 
     while Turn == True:
+        if player1list or player2list == [0,0,0,0,0,0]:
+            Stop = True
+        else:
+            Stop = False
+        if Stop == True:
+            break
         PrintGrid()
+        playerChoice = int(input("what slot will you pick?"))
+        Valid = False 
+        while Valid == False:
+            if playerChoice not in range(0,6):
+                Valid = False 
+                
         
