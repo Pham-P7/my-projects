@@ -30,10 +30,48 @@ def PitFinder():
             return playerChoice
         if playerChoice == 7:
             return "goal 1"
-        if playerChoice in range(7,12):
+        if playerChoice in range(7,13):
             return playerChoice
         if playerChoice == 13:
             return "goal 2"
+def FirstPickMarbles():
+    if pit == 1:
+        Inhand = P11
+        P11 = 0
+    elif pit == 2:
+        Inhand = P12
+        P12 = 0
+    elif pit == 3:
+        Inhand = P13
+        P13 = 0
+    elif pit == 4:
+        Inhand = P14
+        P14 = 0
+    elif pit == 5:
+        Inhand = P15
+        P15 = 0
+    elif pit == 6:
+        Inhand = P16
+        P16 = 0
+def SecondPickMarbles():
+    if pit == 1:
+        Inhand = P21
+        P21 = 0
+    elif pit == 2:
+        Inhand = P22
+        P22 = 0
+    elif pit == 3:
+        Inhand = P23
+        P23 = 0
+    elif pit == 4:
+        Inhand = P24
+        P24 = 0
+    elif pit == 5:
+        Inhand = P25
+        P25 = 0
+    elif pit == 6:
+        Inhand = P26
+        P26 = 0
 Turn = True
 while True:
     #player 1 turn 
@@ -60,20 +98,9 @@ while True:
             else:
                 valid = False
         pit = PitFinder()
-        if pit == 1:
-            Inhand = P11
-            P11 = 0
-        elif pit == 2:
-            Inhand = P12
-            P12 = 0
-        elif pit == 3:
-            Inhand = P13
-            P13 = 0
-        elif pit == 4:
-            Inhand = P14
-            P14 = 0
-        elif pit == 5:
-            Inhand = P15
-            P15 = 0
-        elif pit == 6:
-            Inhand
+    if Stop == False:
+        if P1G > P2G:
+            Winner = 1
+        elif P1G < P2G:
+            Winner = 2
+        break
