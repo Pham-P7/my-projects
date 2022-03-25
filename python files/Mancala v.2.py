@@ -45,12 +45,10 @@ while True:
         if Stop == True:
             break
         PrintPlayer1Grid()
-        playerChoice = int(input("what slot will you pick? 1- 6"))
+        playerChoice = int(input("what slot will you pick? 1 - 6: "))
         Valid = "Filler"
         if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
             valid = True
-            InHand = player1list[playerChoice - 1]
-            player1list[playerChoice - 1] = 0
         else:
             valid = False
         while Valid == False:
@@ -61,5 +59,21 @@ while True:
                 player1list = player1list[player1list - 1] = 0
             else:
                 valid = False
-        while InHand != 0:
-            InHand -= 1
+        pit = PitFinder()
+        if pit == 1:
+            Inhand = P11
+            P11 = 0
+        elif pit == 2:
+            Inhand = P12
+            P12 = 0
+        elif pit == 3:
+            Inhand = P13
+            P13 = 0
+        elif pit == 4:
+            Inhand = P14
+            P14 = 0
+        elif pit == 5:
+            Inhand = P15
+            P15 = 0
+        elif pit == 6:
+            Inhand
