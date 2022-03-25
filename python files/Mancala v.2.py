@@ -16,10 +16,14 @@ P25 = 4
 P26 = 4
 player1list = [P11,P12,P13,P14,P15,P16]
 player2list = [P21,P22,P23,P24,P25,P26]
-def PrintGrid():
+def PrintPlayer1Grid():
     print(f"P2 || {P26} || {P25} || {P24} || {P23} || {P22} || {P21} || ")
     print(f" {P2G} ================================ {P1G}")
-    print(f"   || {P21} || {P22} || {P23} || {P24} || {P25} || {P26} || P1")
+    print(f"   || {P11} || {P12} || {P13} || {P14} || {P15} || {P16} || P1")
+def PrintPlayer2Grid():
+    print(f"P1 || {P16} || {P15} || {P14} || {P13} || {P12} || {P11} || ")
+    print(f" {P1G} ================================ {P2G}")
+    print(f"   || {P21} || {P22} || {P23} || {P24} || {P25} || {P26} || P2")
 def PitFinder():
     if Turn == True:
         if playerChoice in range(0,6):
@@ -40,7 +44,7 @@ while True:
             Stop = False
         if Stop == True:
             break
-        PrintGrid()
+        PrintPlayer1Grid()
         playerChoice = int(input("what slot will you pick? 1- 6"))
         Valid = "Filler"
         if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
