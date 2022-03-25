@@ -22,10 +22,14 @@ def PrintGrid():
     print(f"   || {P21} || {P22} || {P23} || {P24} || {P25} || {P26} || P1")
 def PitFinder():
     if Turn == True:
-        if playerChoice in range(0,7):
+        if playerChoice in range(0,6):
             return playerChoice
         if playerChoice == 7:
             return "goal 1"
+        if playerChoice in range(7,12):
+            return playerChoice
+        if playerChoice == 13:
+            return "goal 2"
 Turn = True
 while True:
     #player 1 turn 
