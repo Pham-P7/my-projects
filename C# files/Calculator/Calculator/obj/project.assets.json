@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Owner\\OneDrive\\Desktop\\coding and game design\\my-projects\\C# files\\Hello World\\Hello World\\Hello World.csproj",
-      "projectName": "Hello World",
-      "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\coding and game design\\my-projects\\C# files\\Hello World\\Hello World\\Hello World.csproj",
+      "projectUniqueName": "C:\\Users\\Owner\\OneDrive\\Desktop\\coding and game design\\my-projects\\C# files\\Calculator\\Calculator\\Calculator.csproj",
+      "projectName": "Calculator",
+      "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\coding and game design\\my-projects\\C# files\\Calculator\\Calculator\\Calculator.csproj",
       "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\coding and game design\\my-projects\\C# files\\Hello World\\Hello World\\obj\\",
+      "outputPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\coding and game design\\my-projects\\C# files\\Calculator\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
