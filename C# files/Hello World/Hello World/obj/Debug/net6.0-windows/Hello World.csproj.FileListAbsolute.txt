@@ -1,0 +1,17 @@
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\bin\Debug\net6.0-windows\Hello World.exe
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\bin\Debug\net6.0-windows\Hello World.deps.json
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\bin\Debug\net6.0-windows\Hello World.runtimeconfig.json
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\bin\Debug\net6.0-windows\Hello World.dll
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\bin\Debug\net6.0-windows\Hello World.pdb
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\obj\Debug\net6.0-windows\Hello World.csproj.AssemblyReference.cache
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\obj\Debug\net6.0-windows\Hello_World.HelloForm.resources
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\obj\Debug\net6.0-windows\Hello World.csproj.GenerateResource.cache
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\obj\Debug\net6.0-windows\Hello World.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\obj\Debug\net6.0-windows\Hello World.AssemblyInfoInputs.cache
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\obj\Debug\net6.0-windows\Hello World.AssemblyInfo.cs
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\obj\Debug\net6.0-windows\Hello World.csproj.CoreCompileInputs.cache
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\obj\Debug\net6.0-windows\Hello World.dll
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\obj\Debug\net6.0-windows\refint\Hello World.dll
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\obj\Debug\net6.0-windows\Hello World.pdb
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\obj\Debug\net6.0-windows\Hello World.genruntimeconfig.cache
+C:\Users\Owner\OneDrive\Desktop\coding and game design\self-project\C# files\Hello World\Hello World\obj\Debug\net6.0-windows\ref\Hello World.dll
