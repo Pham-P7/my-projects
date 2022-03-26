@@ -1,4 +1,3 @@
-Valid = ""
 Winner = 0
 P1G = 0 #rightside player 1
 P2G = 0 #leftside player 2
@@ -16,7 +15,6 @@ P23 = 4
 P24 = 4
 P25 = 4
 P26 = 4
-print("checkmark")
 player1list = [P11,P12,P13,P14,P15,P16]
 player2list = [P21,P22,P23,P24,P25,P26]
 def PrintPlayer1Grid():
@@ -27,7 +25,6 @@ def PrintPlayer2Grid():
     print(f"P1 || {P16} || {P15} || {P14} || {P13} || {P12} || {P11} || ")
     print(f" {P1G} ================================ {P2G}")
     print(f"   || {P21} || {P22} || {P23} || {P24} || {P25} || {P26} || P2")
-print("checkmark")
 def PitFinder():
     if playerChoice in range(0,6):
         return playerChoice
@@ -88,7 +85,6 @@ def FirstPickMarbles():
     if pit == 14:
         Inhand = P26
         P26 = 0 
-print("checkmark")
 def SecondPickMarbles():
     global P11
     global P12
@@ -250,7 +246,7 @@ while Turn == True:
         valid = True
     else:
         valid = False
-    while Valid == False:
+    while valid == False:
         playerChoice = int(input("invalid position please pick another: "))
         if playerChoice in range(1,7) and player1list[playerChoice - 1] != 0:
             valid = True
@@ -265,11 +261,11 @@ while Turn == True:
             playerChoice = int(input("please pick another: "))
         else:
             pit = PitFinder()
-            FirstPickMarbles()
-            if Inhand <= 1:
+            if player1list[pit - 1] <= 1:
                 Turn = not Turn
                 break
             else:
+                FirstPickMarbles()
                 Player1Droping()
     #player 2 turn
 while Turn == False:
@@ -298,17 +294,18 @@ while Turn == False:
             valid = False
     while Inhand != 0:
         pit = PitFinder()
-        Inhand = SecondPickMarbles()
+        SecondPickMarbles()
         Player2Droping()
     while Inhand == 0:
         if pit == 7:
             playerChoice = int(input("Take another turn 1 - 6: "))
         else:
-            SecondPickMarbles()
-            if Inhand <= 1:
+            PitFinder()
+            if player2list[pit - 1] <= 1:
                 Turn = not Turn
                 break
             else:
+                SecondPickMarbles()
                 Player2Droping()
 if Stop == True:
     if Winner == 1:
