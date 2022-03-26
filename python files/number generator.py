@@ -29,58 +29,46 @@ def placeFinder():
 def EnterDigits():
     global game
     global level
-    FirstDigit = input("What is the first number?")
-    if FirstDigit == a:
-        print("correct")
-        SecondDigit = input("what is the second number?")
-        if SecondDigit == b:
+    global strikes
+    while game == True:
+        FirstDigit = int(input("What is the first number?: "))
+        if FirstDigit != a:
+            strikes += 1
+            print(f"thats a strike you have {3 - strikes} strikes left")
+        if FirstDigit == a:
             print("correct")
-            ThirdDigit = input("what is the third number?")
-            if ThirdDigit == c:
-                print("you have finished the level")
-                level += 1
-    else:
-        print("you have failed")
-        game = input("if you wish to play again enter 'play again' else enter quit")
-        if input == "play again":
-            game = 0
-            level = 1
-        else:
-            game = 1
-game = 0
-while game == 0:
-    level = 1
-    if level == 1:
-        a = random.randint(0,6)
-        b = random.randint(0,6)
-        c = random.randint(0,6)
-        print("level 1")
-        placeFinder()
-        EnterDigits()
-    if level == 2:
-        a = random.randint(0,11)
-        b = random.randint(0,11)
-        c = random.randint(0,11)
-        print("level 2")
-        placeFinder()
-        EnterDigits()
-    if level == 3:
-        a = random.randint(0,31)
-        b = random.randint(0,31)
-        c = random.randint(0,31)
-        print("level 3")
-        placeFinder()
-        EnterDigits()
-    if level == 4:
-        a = random.randint(0,101)
-        b = random.randint(0,101)
-        c = random.randint(0,101)
-        print("Welcome to insanity")
-        placeFinder()
-        EnterDigits()
-    if level == 5:
-        game = 2
-if game == 2:
-    print("congrats you have won")
-elif game == 1:
-    print("you have given up")
+            SecondDigit = int(input("what is the second number?: "))
+            if SecondDigit != b:
+                strikes += 1
+                print(f"thats a strike you have {3 - strikes} strikes left")
+            if SecondDigit == b:
+                print("correct")
+                ThirdDigit = int(input("what is the third number?: "))
+                if ThirdDigit != c:
+                    strikes += 1
+                    print(f"thats a strike you have {3 - strikes} strikes left")
+                if ThirdDigit == c:
+                    print("you have finished the level")
+                    level = level + 1
+                    strikes = 0
+        if strikes == 3:
+            print("you have failed")
+            print(f"the password was {a} {b} {c}")
+            game = input("if you wish to play again enter 'play again' else enter quit: ")
+            if input == "play again":
+                game = True
+                level = 1
+            else:
+                game = False
+game = True
+strikes = 0
+level = 1
+while game == True:
+    a = random.randint(1,(6 + 5*(level - 1)))
+    b = random.randint(1,(6 + 5*(level - 1)))
+    c = random.randint(1,(6 + 5*(level - 1)))
+    print(f"level {level}")
+    placeFinder()
+    EnterDigits()
+if game == False:
+    print(f"you have completed {level - 1} levels")
