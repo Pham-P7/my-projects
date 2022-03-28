@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Owner\\OneDrive\\Desktop\\coding and game design\\my-projects\\C# files\\Hello World 2\\Hello World 2\\Hello World 2.csproj": {}
+    "C:\\coding and game design\\my-projects\\C# files\\Chapter 3\\Hello World 2\\Hello World 2\\Hello World 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Owner\\OneDrive\\Desktop\\coding and game design\\my-projects\\C# files\\Hello World 2\\Hello World 2\\Hello World 2.csproj": {
+    "C:\\coding and game design\\my-projects\\C# files\\Chapter 3\\Hello World 2\\Hello World 2\\Hello World 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\OneDrive\\Desktop\\coding and game design\\my-projects\\C# files\\Hello World 2\\Hello World 2\\Hello World 2.csproj",
+        "projectUniqueName": "C:\\coding and game design\\my-projects\\C# files\\Chapter 3\\Hello World 2\\Hello World 2\\Hello World 2.csproj",
         "projectName": "Hello World 2",
-        "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\coding and game design\\my-projects\\C# files\\Hello World 2\\Hello World 2\\Hello World 2.csproj",
+        "projectPath": "C:\\coding and game design\\my-projects\\C# files\\Chapter 3\\Hello World 2\\Hello World 2\\Hello World 2.csproj",
         "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\coding and game design\\my-projects\\C# files\\Hello World 2\\Hello World 2\\obj\\",
+        "outputPath": "C:\\coding and game design\\my-projects\\C# files\\Chapter 3\\Hello World 2\\Hello World 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
