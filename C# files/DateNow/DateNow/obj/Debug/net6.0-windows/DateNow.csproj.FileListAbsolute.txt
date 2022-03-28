@@ -1,0 +1,17 @@
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\bin\Debug\net6.0-windows\DateNow.exe
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\bin\Debug\net6.0-windows\DateNow.deps.json
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\bin\Debug\net6.0-windows\DateNow.runtimeconfig.json
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\bin\Debug\net6.0-windows\DateNow.dll
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\bin\Debug\net6.0-windows\DateNow.pdb
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\obj\Debug\net6.0-windows\DateNow.csproj.AssemblyReference.cache
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\obj\Debug\net6.0-windows\DateNow.Form1.resources
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\obj\Debug\net6.0-windows\DateNow.csproj.GenerateResource.cache
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\obj\Debug\net6.0-windows\DateNow.GeneratedMSBuildEditorConfig.editorconfig
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\obj\Debug\net6.0-windows\DateNow.AssemblyInfoInputs.cache
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\obj\Debug\net6.0-windows\DateNow.AssemblyInfo.cs
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\obj\Debug\net6.0-windows\DateNow.csproj.CoreCompileInputs.cache
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\obj\Debug\net6.0-windows\DateNow.dll
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\obj\Debug\net6.0-windows\refint\DateNow.dll
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\obj\Debug\net6.0-windows\DateNow.pdb
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\obj\Debug\net6.0-windows\DateNow.genruntimeconfig.cache
+C:\coding and game design\my-projects\C# files\DateNow\DateNow\obj\Debug\net6.0-windows\ref\DateNow.dll
