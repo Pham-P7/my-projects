@@ -49,6 +49,7 @@
             this.Controls.Add(this.MyButton);
             this.Name = "HelloWorld2";
             this.Text = "Hello, World";
+            this.Load += new System.EventHandler(this.HelloWorld2_Load);
             this.ResumeLayout(false);
 
         }
