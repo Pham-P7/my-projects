@@ -1,0 +1,17 @@
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\bin\Debug\net6.0-windows\Data Types.exe
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\bin\Debug\net6.0-windows\Data Types.deps.json
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\bin\Debug\net6.0-windows\Data Types.runtimeconfig.json
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\bin\Debug\net6.0-windows\Data Types.dll
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\bin\Debug\net6.0-windows\Data Types.pdb
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\obj\Debug\net6.0-windows\Data Types.csproj.AssemblyReference.cache
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\obj\Debug\net6.0-windows\Data_Types.DataForm.resources
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\obj\Debug\net6.0-windows\Data Types.csproj.GenerateResource.cache
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\obj\Debug\net6.0-windows\Data Types.GeneratedMSBuildEditorConfig.editorconfig
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\obj\Debug\net6.0-windows\Data Types.AssemblyInfoInputs.cache
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\obj\Debug\net6.0-windows\Data Types.AssemblyInfo.cs
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\obj\Debug\net6.0-windows\Data Types.csproj.CoreCompileInputs.cache
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\obj\Debug\net6.0-windows\Data Types.dll
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\obj\Debug\net6.0-windows\refint\Data Types.dll
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\obj\Debug\net6.0-windows\Data Types.pdb
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\obj\Debug\net6.0-windows\Data Types.genruntimeconfig.cache
+C:\coding and game design\my-projects\C# files\Chapter 4\Data Types\Data Types\obj\Debug\net6.0-windows\ref\Data Types.dll
