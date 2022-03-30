@@ -1,0 +1,17 @@
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\obj\Debug\net6.0-windows\Beepers.csproj.AssemblyReference.cache
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\obj\Debug\net6.0-windows\Beepers.BeeperForm.resources
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\obj\Debug\net6.0-windows\Beepers.csproj.GenerateResource.cache
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\obj\Debug\net6.0-windows\Beepers.GeneratedMSBuildEditorConfig.editorconfig
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\obj\Debug\net6.0-windows\Beepers.AssemblyInfoInputs.cache
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\obj\Debug\net6.0-windows\Beepers.AssemblyInfo.cs
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\obj\Debug\net6.0-windows\Beepers.csproj.CoreCompileInputs.cache
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\bin\Debug\net6.0-windows\Beepers.exe
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\bin\Debug\net6.0-windows\Beepers.deps.json
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\bin\Debug\net6.0-windows\Beepers.runtimeconfig.json
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\bin\Debug\net6.0-windows\Beepers.dll
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\bin\Debug\net6.0-windows\Beepers.pdb
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\obj\Debug\net6.0-windows\Beepers.dll
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\obj\Debug\net6.0-windows\refint\Beepers.dll
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\obj\Debug\net6.0-windows\Beepers.pdb
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\obj\Debug\net6.0-windows\Beepers.genruntimeconfig.cache
+C:\coding and game design\my-projects\C# files\Chapter 5\Beepers\Beepers\obj\Debug\net6.0-windows\ref\Beepers.dll
