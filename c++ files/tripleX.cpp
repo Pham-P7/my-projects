@@ -6,9 +6,9 @@ int main()
     std::cout << std::endl;
     std::cout << "You must bring the EXACT AMOUNT or it will be to heavy or you will die";
 
-    const int CodeA = (rand()%5)+1;
-    const int CodeB = (rand()%5)+1;
-    const int CodeC = (rand()%5)+1;
+    const int CodeA = 2;
+    const int CodeB = 4;
+    const int CodeC = 7;
     
     const int CodeSum = CodeA + CodeB + CodeC;
     const int CodeProduct = CodeA * CodeB * CodeC;
