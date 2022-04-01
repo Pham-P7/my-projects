@@ -22,9 +22,9 @@ int main()
     std::cin >> GuessA;
     std::cin >> GuessB;
     std::cin >> GuessC;
+
     int GuessSum = GuessA + GuessB + GuessC;
     int GuessProuct = GuessA * GuessB * GuessC;
     
-
     return 0;
 }
