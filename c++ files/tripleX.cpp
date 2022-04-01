@@ -10,13 +10,13 @@ int main()
     const int CodeB = 3;
     const int CodeC = 7;
 
-    const int sum = CodeA + CodeB + CodeC;
-    const int product = CodeA * CodeB * CodeC;
+    const int CodeSum = CodeA + CodeB + CodeC;
+    const int CodeProduct = CodeA * CodeB * CodeC;
     
     std::cout << std::endl;
     std::cout << "There are 3 numbers in the password" << std::endl;
-    std::cout << "The sum of all 3 numbers = " << sum << std::endl;
-    std::cout << "The product of all 3 numbers = " << product << std::endl;
+    std::cout << "The sum of all 3 numbers = " << CodeSum << std::endl;
+    std::cout << "The product of all 3 numbers = " << CodeProduct << std::endl;
 
     return 0;
 }
