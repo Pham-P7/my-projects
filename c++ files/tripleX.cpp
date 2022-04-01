@@ -18,5 +18,6 @@ int main()
     std::cout << "The sum of all 3 numbers = " << CodeSum << std::endl;
     std::cout << "The product of all 3 numbers = " << CodeProduct << std::endl;
 
+    int PlayerGuess;
     return 0;
 }
