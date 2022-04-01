@@ -18,6 +18,12 @@ int main()
     std::cout << "The sum of all 3 numbers = " << CodeSum << std::endl;
     std::cout << "The product of all 3 numbers = " << CodeProduct << std::endl;
 
-    int PlayerGuess;
+    int GuessA, GuessB, GuessC;
+    std::cin >> GuessA;
+    std::cin >> GuessB;
+    std::cin >> GuessC;
+    int GuessSum = GuessA + GuessB + GuessC;
+    int GuessProuct = GuessA * GuessB * GuessC;
+
     return 0;
 }
