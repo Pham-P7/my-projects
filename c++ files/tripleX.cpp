@@ -28,7 +28,7 @@ int main()
     
     if(true)
     {
-        std::cout << "you won";
+        std::cout << "you won!";
     }
     return 0;
 }
