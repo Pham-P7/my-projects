@@ -26,5 +26,9 @@ int main()
     int GuessSum = GuessA + GuessB + GuessC;
     int GuessProuct = GuessA * GuessB * GuessC;
     
+    if(true)
+    {
+        std::cout << "you won";
+    }
     return 0;
 }
