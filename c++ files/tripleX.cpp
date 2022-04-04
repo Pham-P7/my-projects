@@ -1,11 +1,14 @@
 #include <iostream>
-int main()
+
+void PrintIntroduction()
 {
     // main story 
-    std::cout << "You have a long quest ahead and you must pack food, water and supplies";
-    std::cout << std::endl;
-    std::cout << "You must bring the EXACT AMOUNT or it will be to heavy or you will die";
+    std::cout << "You have a long quest ahead and you must pack food, water and supplies \n";
+    std::cout << "You must bring the EXACT AMOUNT or it will be to heavy or you will die \n";
+}
 
+void PlayGame()
+{
     const int CodeA = 2;
     const int CodeB = 4;
     const int CodeC = 7;
@@ -13,22 +16,29 @@ int main()
     const int CodeSum = CodeA + CodeB + CodeC;
     const int CodeProduct = CodeA * CodeB * CodeC;
     
-    std::cout << std::endl;
-    std::cout << "There are 3 numbers in the password" << std::endl;
-    std::cout << "The sum of all 3 numbers = " << CodeSum << std::endl;
-    std::cout << "The product of all 3 numbers = " << CodeProduct << std::endl;
+    std::cout << "There are 3 numbers in the password";
+    std::cout << "\n The sum of all 3 numbers = " << CodeSum;
+    std::cout << "\n The product of all 3 numbers = " << CodeProduct << "\n";
 
     int GuessA, GuessB, GuessC;
-    std::cin >> GuessA;
-    std::cin >> GuessB;
-    std::cin >> GuessC;
+    std::cin >> GuessA >> GuessB >> GuessC;
 
     int GuessSum = GuessA + GuessB + GuessC;
     int GuessProuct = GuessA * GuessB * GuessC;
     
-    if(GuessSum == CodeSum)
+    if(GuessSum == CodeSum && GuessProuct == CodeProduct)
     {
-        std::cout << "you won!";
+        std::cout << "\nyou won!";
     }
+    else
+    {
+        std::cout << "\nyou lose";
+    }
+}
+
+int main()
+{
+    PrintIntroduction();
+    PlayGame();
     return 0;
 }
