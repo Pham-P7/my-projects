@@ -1,17 +1,19 @@
 #include <iostream>
+#include <ctime>
 
-void PrintIntroduction()
+void PrintIntroduction(int Difficulty)
 {
     // main story 
-    std::cout << "You have a long quest ahead and you must pack food, water and supplies \n";
+    std::cout << "\n\nYou have a long level " << Difficulty << " quest ahead and you must pack food, water and supplies\n";
     std::cout << "You must bring the EXACT AMOUNT or it will be to heavy or you will die \n";
 }
 
-void PlayGame()
+bool PlayGame(int Difficulty)
 {
-    const int CodeA = 2;
-    const int CodeB = 4;
-    const int CodeC = 7;
+    PrintIntroduction(Difficulty);
+    const int CodeA = rand() % Difficulty + Difficulty;
+    const int CodeB = rand() % Difficulty + Difficulty;
+    const int CodeC = rand() % Difficulty + Difficulty;
     
     const int CodeSum = CodeA + CodeB + CodeC;
     const int CodeProduct = CodeA * CodeB * CodeC;
@@ -28,17 +30,34 @@ void PlayGame()
     
     if(GuessSum == CodeSum && GuessProuct == CodeProduct)
     {
-        std::cout << "\nyou won!";
+        std::cout << "\nyou brought enough supplies for the whole quest";
+        return true;
     }
     else
     {
-        std::cout << "\nyou lose";
+        std::cout << "\nyou died due to lack of prep";
+        return false;
     }
 }
 
 int main()
 {
-    PrintIntroduction();
-    PlayGame();
+    srand(time(NULL));
+    int LevelDifficulty = 1;
+    const int MaxLevel = 7;
+    while (LevelDifficulty <= MaxLevel)
+    {
+        bool bLevelComplete = PlayGame(LevelDifficulty);
+        std::cin.clear();
+        std::cin.ignore();
+
+        if (bLevelComplete)
+        {
+            ++ LevelDifficulty;
+        }
+        
+
+    }
+    std::cout << "\nWell done, The guilds quest  board is currently empty congrats";
     return 0;
 }
