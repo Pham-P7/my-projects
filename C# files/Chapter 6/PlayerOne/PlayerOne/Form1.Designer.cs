@@ -41,7 +41,6 @@
             this.label1.Size = new System.Drawing.Size(132, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "enter your player name:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBoxName
             // 
@@ -58,6 +57,7 @@
             this.StartButton.TabIndex = 2;
             this.StartButton.Text = "ENTER";
             this.StartButton.UseVisualStyleBackColor = true;
+            this.StartButton.Click += new System.EventHandler(this.StartButton_Click);
             // 
             // Form1
             // 

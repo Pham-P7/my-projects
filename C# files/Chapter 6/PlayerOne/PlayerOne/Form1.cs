@@ -7,9 +7,10 @@ namespace PlayerOne
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void StartButton_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Your name is: " + textBoxName.Text);
+            textBoxName.Text = "";
         }
     }
 }

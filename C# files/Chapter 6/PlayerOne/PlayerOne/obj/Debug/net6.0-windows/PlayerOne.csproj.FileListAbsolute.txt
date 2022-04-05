@@ -1,0 +1,17 @@
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\obj\Debug\net6.0-windows\PlayerOne.csproj.AssemblyReference.cache
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\obj\Debug\net6.0-windows\PlayerOne.Form1.resources
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\obj\Debug\net6.0-windows\PlayerOne.csproj.GenerateResource.cache
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\obj\Debug\net6.0-windows\PlayerOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\obj\Debug\net6.0-windows\PlayerOne.AssemblyInfoInputs.cache
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\obj\Debug\net6.0-windows\PlayerOne.AssemblyInfo.cs
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\obj\Debug\net6.0-windows\PlayerOne.csproj.CoreCompileInputs.cache
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\bin\Debug\net6.0-windows\PlayerOne.exe
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\bin\Debug\net6.0-windows\PlayerOne.deps.json
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\bin\Debug\net6.0-windows\PlayerOne.runtimeconfig.json
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\bin\Debug\net6.0-windows\PlayerOne.dll
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\bin\Debug\net6.0-windows\PlayerOne.pdb
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\obj\Debug\net6.0-windows\PlayerOne.dll
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\obj\Debug\net6.0-windows\refint\PlayerOne.dll
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\obj\Debug\net6.0-windows\PlayerOne.pdb
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\obj\Debug\net6.0-windows\PlayerOne.genruntimeconfig.cache
+C:\Users\100048136\Downloads\self-project\C# files\Chapter 6\PlayerOne\PlayerOne\obj\Debug\net6.0-windows\ref\PlayerOne.dll
