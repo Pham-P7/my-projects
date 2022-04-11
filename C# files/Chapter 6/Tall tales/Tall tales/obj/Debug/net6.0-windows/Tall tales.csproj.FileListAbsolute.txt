@@ -1,0 +1,17 @@
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\bin\Debug\net6.0-windows\Tall tales.exe
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\bin\Debug\net6.0-windows\Tall tales.deps.json
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\bin\Debug\net6.0-windows\Tall tales.runtimeconfig.json
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\bin\Debug\net6.0-windows\Tall tales.dll
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\bin\Debug\net6.0-windows\Tall tales.pdb
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\obj\Debug\net6.0-windows\Tall tales.csproj.AssemblyReference.cache
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\obj\Debug\net6.0-windows\Tall_tales.TalesForm.resources
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\obj\Debug\net6.0-windows\Tall tales.csproj.GenerateResource.cache
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\obj\Debug\net6.0-windows\Tall tales.GeneratedMSBuildEditorConfig.editorconfig
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\obj\Debug\net6.0-windows\Tall tales.AssemblyInfoInputs.cache
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\obj\Debug\net6.0-windows\Tall tales.AssemblyInfo.cs
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\obj\Debug\net6.0-windows\Tall tales.csproj.CoreCompileInputs.cache
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\obj\Debug\net6.0-windows\Tall tales.dll
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\obj\Debug\net6.0-windows\refint\Tall tales.dll
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\obj\Debug\net6.0-windows\Tall tales.pdb
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\obj\Debug\net6.0-windows\Tall tales.genruntimeconfig.cache
+C:\coding and game design\my-projects\C# files\Chapter 6\Tall tales\Tall tales\obj\Debug\net6.0-windows\ref\Tall tales.dll
