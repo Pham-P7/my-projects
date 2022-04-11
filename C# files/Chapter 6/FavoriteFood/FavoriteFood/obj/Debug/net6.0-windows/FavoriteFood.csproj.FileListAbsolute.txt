@@ -1,0 +1,17 @@
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\bin\Debug\net6.0-windows\FavoriteFood.exe
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\bin\Debug\net6.0-windows\FavoriteFood.deps.json
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\bin\Debug\net6.0-windows\FavoriteFood.runtimeconfig.json
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\bin\Debug\net6.0-windows\FavoriteFood.dll
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\bin\Debug\net6.0-windows\FavoriteFood.pdb
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\obj\Debug\net6.0-windows\FavoriteFood.csproj.AssemblyReference.cache
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\obj\Debug\net6.0-windows\FavoriteFood.Form1.resources
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\obj\Debug\net6.0-windows\FavoriteFood.csproj.GenerateResource.cache
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\obj\Debug\net6.0-windows\FavoriteFood.GeneratedMSBuildEditorConfig.editorconfig
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\obj\Debug\net6.0-windows\FavoriteFood.AssemblyInfoInputs.cache
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\obj\Debug\net6.0-windows\FavoriteFood.AssemblyInfo.cs
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\obj\Debug\net6.0-windows\FavoriteFood.csproj.CoreCompileInputs.cache
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\obj\Debug\net6.0-windows\FavoriteFood.dll
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\obj\Debug\net6.0-windows\refint\FavoriteFood.dll
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\obj\Debug\net6.0-windows\FavoriteFood.pdb
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\obj\Debug\net6.0-windows\FavoriteFood.genruntimeconfig.cache
+C:\coding and game design\my-projects\C# files\Chapter 6\FavoriteFood\FavoriteFood\obj\Debug\net6.0-windows\ref\FavoriteFood.dll
