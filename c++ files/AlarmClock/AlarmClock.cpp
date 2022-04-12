@@ -1,6 +1,7 @@
 // this is my alarm clock because I can't get up in the morning
 #include <iostream>
 #include <ctime>
+
 int main()
 {
     while(true)
@@ -10,11 +11,11 @@ int main()
         double hour = tm_struct->tm_hour;
         if(hour == 7)
         {
-            while(true)
+            while(c != 1000 , c  = 0, c++)
             {
-                _beep(1 ,1);
-                std::cin >> stop code
+                Beep(523,500);
             }
         }
+        return 0;
     }
 }
