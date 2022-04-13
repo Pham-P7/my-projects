@@ -9,7 +9,7 @@ int main()
     {
         time_t now = time(NULL);
         struct tm *tm_struct = localtime(&now);
-        double hour = tm_struct->tm_hour;
+        int hour = tm_struct->tm_hour;
         if(hour == 7)
         {
             int c = 0;
@@ -17,12 +17,6 @@ int main()
             {
                 Beep(523,500);
                 c++;
-                char stopCode[4];
-                std::cin >> stopCode;
-                if(stopCode == "stop")
-                {
-                    break;
-                }
             }
         }
         return 0;
