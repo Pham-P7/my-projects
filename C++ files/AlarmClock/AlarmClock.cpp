@@ -9,22 +9,41 @@ int main()
 {
     // start stopcode and ask for a variable
     string stopCode;
+    std::cout << "do you want to wake up this morning?\n";
     std::cin >> stopCode; 
-    while(true)
+    if(stopCode == "yes")
+    {
+        stopCode = "go";
+    }
+    else if(stopCode == "no")
+    {
+        stopCode = "stop";
+    }
+    // starting waketime to reset later
+    int WakeTime = 0;
+
+    if(stopCode == "go")
+    {
+        std::cout << "what time do you want to wake up? reminder please use military time:)\n";
+        std::cin >> WakeTime;
+    }
+
+    while(stopCode == "go")
     {
         // checks the time until the
         time_t now = time(NULL);
         struct tm *tm_struct = localtime(&now);
         int hour = tm_struct->tm_hour;
-        if(hour == 7 && stopCode != "go")
+        // checks for current time to start 
+        if(hour == WakeTime)
         {
             int c = 0;
-            while(c != 1000 && stopCode != "go")
+            while(c != 1000)
             {
                 Beep(523,500);
                 c++;
             }
         }
-        return 0;
+    return 0;
     }
 }
