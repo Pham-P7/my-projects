@@ -7,6 +7,7 @@ void UBullCowCartridge::BeginPlay() // When the game starts
     PrintLine(TEXT("Welcome to the Bulls and Cows game!"));
     PrintLine(TEXT("guess the four letter word!")); // remove the number later
     PrintLine(TEXT("Press enter to continue"));
+    HiddenWord = TEXT("cake");
 }
 
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
