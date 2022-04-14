@@ -1,6 +1,7 @@
 // this is my alarm clock because I can't get up in the morning
 #include <iostream>
 #include <ctime>
+#include <windows.h>
 
 int main()
 {
@@ -11,9 +12,11 @@ int main()
         double hour = tm_struct->tm_hour;
         if(hour == 7)
         {
-            while(c != 1000 , c  = 0, c++)
+            int c = 0;
+            while(c != 1000)
             {
-                Beep(523,500);
+                Beep(523,400);
+                c++;
             }
         }
         return 0;
