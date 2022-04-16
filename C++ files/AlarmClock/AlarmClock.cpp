@@ -1,17 +1,41 @@
-// this is my alarm clock because I can't get up in the morning
+// header statments 
 #include <iostream>
 #include <ctime>
 #include <Windows.h>
 #include <string>
 using namespace std;
+// main function sets off at 7 and keep keeps rechecking time 
 int main()
 {
-    while(true)
+    // start stopcode and ask for a variable
+    string stopCode;
+    std::cout << "do you want to wake up this morning?\n";
+    std::cin >> stopCode; 
+    if(stopCode == "yes")
     {
+        stopCode = "go";
+    }
+    else if(stopCode == "no")
+    {
+        stopCode = "stop";
+    }
+    // starting waketime to reset later
+    int WakeTime = 0;
+
+    if(stopCode == "go")
+    {
+        std::cout << "what time do you want to wake up? reminder please use military time:)\n";
+        std::cin >> WakeTime;
+    }
+
+    while(stopCode == "go")
+    {
+        // checks the time until the
         time_t now = time(NULL);
         struct tm *tm_struct = localtime(&now);
         int hour = tm_struct->tm_hour;
-        if(hour == 7)
+        // checks for current time to start 
+        if(hour == WakeTime)
         {
             int c = 0;
             while(c != 1000)
@@ -20,6 +44,6 @@ int main()
                 c++;
             }
         }
-        return 0;
+    return 0;
     }
 }
