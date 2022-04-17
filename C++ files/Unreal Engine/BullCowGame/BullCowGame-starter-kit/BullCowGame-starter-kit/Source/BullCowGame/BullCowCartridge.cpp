@@ -30,12 +30,12 @@ void UBullCowCartridge::OnInput(const FString& Input) // When the player hits en
         }
         else
         {
-            --lives;
             PrintLine(TEXT("you have lost a life"));
             if(lives > 0)
             {
                 if(HiddenWord.Len() != Input.Len())
                 {
+                    --lives;
                     PrintLine(TEXT("sorry try guessing again, you have %i lives left"), lives);
                 }
             }
