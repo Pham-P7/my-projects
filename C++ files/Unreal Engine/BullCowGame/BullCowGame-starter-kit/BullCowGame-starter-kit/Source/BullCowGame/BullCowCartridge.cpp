@@ -16,25 +16,37 @@ void UBullCowCartridge::BeginPlay() // When the game starts
 
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
 {
-    ClearScreen();
-
-    HiddenWord.Len();
-    Input.Len();
-
-    if(Input == HiddenWord)
+    if(bGameOver)
     {
-        PrintLine(TEXT("You have won!"));
+        ClearScreen();
+        SetupGame();
     }
     else
     {
-        if(HiddenWord.Len() != Input.Len())
+        if(Input == HiddenWord)
         {
-            PrintLine(TEXT("opps the word is %i characters long, try again"), HiddenWord.Len());
+            PrintLine(TEXT("You have won!"));
+            EndGame();
         }
-
-        PrintLine(TEXT("You lost"));
-        bGameOver = true;
+        else
+        {
+            --lives;
+            PrintLine(TEXT("you have lost a life"));
+            if(lives > 0)
+            {
+                if(HiddenWord.Len() != Input.Len())
+                {
+                    PrintLine(TEXT("sorry try guessing again, you have %i lives left"), lives);
+                }
+            }
+            else
+            {
+                PrintLine(TEXT("you have ran out of lives"));
+                EndGame();
+            }
+        }
     }
+
     // check if isogram
     //check if right amount of characters 
     // remove life
@@ -47,12 +59,19 @@ void UBullCowCartridge::OnInput(const FString& Input) // When the player hits en
 void UBullCowCartridge::SetupGame()
 {    
     HiddenWord = TEXT("cake");
+    int32 Lives = HiddenWord.Len();
     bGameOver = false;
     
     PrintLine(TEXT("Welcome to the Bulls and Cows game!"));
     PrintLine(TEXT("guess the %i letter word!"), HiddenWord.Len()); // remove the number later
+    PrintLine(TEXT("you have %i lives", Lives));
     PrintLine(TEXT("type in your guess and press enter to continue"));
 
     lives = 4;
     bGameOver = false;
+}
+void UBullCowCartridge::EndGame()
+{
+    bGameOver = true;
+    PrintLine(TEXT("press enter to play again"));
 }
