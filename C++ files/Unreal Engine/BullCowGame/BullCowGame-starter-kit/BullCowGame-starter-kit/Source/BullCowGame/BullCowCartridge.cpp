@@ -38,9 +38,7 @@ void UBullCowCartridge::SetupGame()
     PrintLine(TEXT("guess the %i letter word!"), HiddenWord.Len()); // remove the number later
     PrintLine(TEXT("you have %i lives", Lives));
     PrintLine(TEXT("type in your guess and press enter to continue"));
-
-    const TCHAR HW[] = TEXT("cakes");
-    HW;
+    IsIsogram(HiddenWord);
 }
 void UBullCowCartridge::EndGame()
 {
@@ -65,6 +63,7 @@ void UBullCowCartridge::ProcessGuess(FString Guess)
     if(!IsIsogram(Guess))
     {
         PrintLine(TEXT("no repeating letters, Guess again."));
+        return;
     }
     --lives;
     PrintLine(TEXT("you have lost a life"));
@@ -80,10 +79,10 @@ void UBullCowCartridge::ProcessGuess(FString Guess)
 }
 bool UBullCowCartridge::IsIsogram(FString Word)
 {
-/*     if()
+    for (int32 Index = 0; Index < Word.Len(); Index++)
     {
-
-    } */
+        PrintLine(TEXT("%c", Word[Index]));
+    }
     return true;
 }
     // check if they want to play again
