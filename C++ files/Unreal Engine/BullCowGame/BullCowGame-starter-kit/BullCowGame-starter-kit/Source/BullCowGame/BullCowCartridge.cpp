@@ -7,16 +7,8 @@ void UBullCowCartridge::BeginPlay() // When the game starts
     const FString WordListPath = FPaths::ProjectContentDir() / TEXT("WordLists/HiddenWordList.txt");
     FFileHelper::LoadFileToStringArray(Words, *WordListPath);
     Super::BeginPlay();
-    GetValidWords(Words);
+    Isograms = GetValidWords(Words);
     SetupGame();
-
-    PrintLine(FString::Printf(TEXT("The hiddenword is: %s. \n It is %i characters long"), *HiddenWord, HiddenWord.Len()));
-    // or
-    // PrintLine(TEXT("The hiddenword is: %s"), *HiddenWord);
-
-
-
-    // set lives
 }
 
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
@@ -35,7 +27,7 @@ void UBullCowCartridge::OnInput(const FString& Input) // When the player hits en
 
 void UBullCowCartridge::SetupGame()
 {    
-    HiddenWord = TEXT("cake");
+    HiddenWord = Isograms[FMath::RandRange(0, Isograms.Num() - 1)];
     int32 Lives = HiddenWord.Len();
     bGameOver = false;
     
@@ -43,6 +35,9 @@ void UBullCowCartridge::SetupGame()
     PrintLine(TEXT("guess the %i letter word!"), HiddenWord.Len()); // remove the number later
     PrintLine(TEXT("you have %i lives"), Lives);
     PrintLine(TEXT("type in your guess and press enter to continue"));
+    PrintLine(FString::Printf(TEXT("The hiddenword is: %s. \n It is %i characters long"), *HiddenWord, HiddenWord.Len()));
+    // or
+    // PrintLine(TEXT("The hiddenword is: %s"), *HiddenWord);
 }
 void UBullCowCartridge::EndGame()
 {

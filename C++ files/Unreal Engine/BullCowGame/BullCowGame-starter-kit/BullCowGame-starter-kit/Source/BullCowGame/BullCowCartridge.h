@@ -25,4 +25,5 @@ class BULLCOWGAME_API UBullCowCartridge : public UCartridge
 	int32 lives;
 	bool bGameOver;
 	TArray<FString> Words;
+	TArray<FString> Isograms;
 };
