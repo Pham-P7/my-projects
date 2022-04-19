@@ -1,10 +1,15 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "BullCowCartridge.h"
-
+#include "Misc/FileHelper.h"
+#include "Misc/Paths.h"
 void UBullCowCartridge::BeginPlay() // When the game starts
 {
+    const FString WordListPath = FPaths::ProjectContentDir() / TEXT("WordLists/HiddenWordList.txt");
+    FFileHelper::LoadFileToStringArray(Words, *WordListPath);
     Super::BeginPlay();
+    GetValidWords(Words);
     SetupGame();
+
     PrintLine(FString::Printf(TEXT("The hiddenword is: %s. \n It is %i characters long"), *HiddenWord, HiddenWord.Len()));
     // or
     // PrintLine(TEXT("The hiddenword is: %s"), *HiddenWord);
@@ -36,16 +41,15 @@ void UBullCowCartridge::SetupGame()
     
     PrintLine(TEXT("Welcome to the Bulls and Cows game!"));
     PrintLine(TEXT("guess the %i letter word!"), HiddenWord.Len()); // remove the number later
-    PrintLine(TEXT("you have %i lives", Lives));
+    PrintLine(TEXT("you have %i lives"), Lives);
     PrintLine(TEXT("type in your guess and press enter to continue"));
-    IsIsogram(HiddenWord);
 }
 void UBullCowCartridge::EndGame()
 {
     bGameOver = true;
     PrintLine(TEXT("\npress enter to play again"));
 }
-void UBullCowCartridge::ProcessGuess(FString Guess)
+void UBullCowCartridge::ProcessGuess(const FString& Guess)
 {
     if(Guess == HiddenWord)
     {
@@ -53,7 +57,6 @@ void UBullCowCartridge::ProcessGuess(FString Guess)
         EndGame();
         return;
     }
-        // check if isogram
     if(HiddenWord.Len() != Guess.Len())
     {
         PrintLine(TEXT("remember the hidden word has %i characters"), HiddenWord.Len());
@@ -77,14 +80,29 @@ void UBullCowCartridge::ProcessGuess(FString Guess)
     }
     PrintLine(TEXT("guess again, you still have %i lives left"), lives);
 }
-bool UBullCowCartridge::IsIsogram(FString Word)
+bool UBullCowCartridge::IsIsogram(const FString& Word) const 
 {
-    for (int32 Index = 0; Index < Word.Len(); Index++)
+    for(int32 Index = 0; Index < Word.Len(); Index++)
     {
-        PrintLine(TEXT("%c", Word[Index]));
+        for(int32 Comparison = Index + 1; Comparison < Word.Len(); Comparison++)
+        {
+            if(Word[Index] == Word[Comparison])
+            {
+                return false;
+            }
+        }
     }
     return true;
 }
-    // check if they want to play again
-    // if yes start again
-    // if no show word and quit game
+TArray<FString> UBullCowCartridge::GetValidWords(const TArray<FString>& WordList) const
+{
+    TArray<FString> ValidWords;
+    for(FString Word : WordList)
+    {
+        if(Word.Len() >= 4 && Word.Len() <= 8 && IsIsogram(Word))
+        {
+            ValidWords.Emplace(Word);
+        }
+    }
+    return ValidWords;
+}
