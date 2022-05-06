@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+using namespace std;
 int main()
 {
     int answer;
@@ -6,10 +8,12 @@ int main()
     std::cin >> answer; 
     if(1 + 1 == answer)
     {
-        std::cout << "correct";
+        string result = "correct";
+        std::cout << result;
     }
     else
     {
-        std::cout << "wrong";
+        string result = "wrong";
+        std::cout << result;
     }
 }
