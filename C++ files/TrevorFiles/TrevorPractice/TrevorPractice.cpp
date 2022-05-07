@@ -1,15 +1,24 @@
 #include <iostream>
 
-int failure()
+int birth()
 {
-    int trevor = 1 + 2 + 5 + 2;
-    int peepeepoopoo = 24;
+    return 4;
+}
+int x()
+{
+        int y = 24;
+        return y;
+}
+int failure(int trevor, int peepeepoopoo)
+{
     int tucker = trevor * peepeepoopoo;
     return tucker;
 }
 int main()
 {
-    int tucker = failure();
-    std::cout << ("%i", tucker);
+    int z = x();
+    int i = birth();
+    int T = failure(i, z);
+    std::cout << ("%i", T);
     return 0;
 }
