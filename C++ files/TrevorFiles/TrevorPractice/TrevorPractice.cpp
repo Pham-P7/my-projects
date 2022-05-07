@@ -6,8 +6,8 @@ int birth()
 }
 int x()
 {
-        int y = 24;
-        return y;
+    int y = 24;
+    return y;
 }
 int failure(int trevor, int peepeepoopoo)
 {
