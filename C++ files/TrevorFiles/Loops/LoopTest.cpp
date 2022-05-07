@@ -8,7 +8,7 @@ int main()
     while(true)
     {
         i++;
-        std::cout << i;
+        std::cout << i << "\n";
         if(i == 76)
         {
             break;
