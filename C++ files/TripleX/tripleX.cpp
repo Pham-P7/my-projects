@@ -4,22 +4,21 @@
 void PrintIntroduction(int Difficulty)
 {
     // main story 
-    std::cout << "\n\nYou have a long level " << Difficulty << " quest ahead and you must pack food, water and supplies\n";
-    std::cout << "You must bring the EXACT AMOUNT or it will be to heavy or you will die \n";
+    std::cout << "\n\nYou are on level " << ("%i \n", Difficulty);
 }
 
 bool PlayGame(int Difficulty)
 {
     PrintIntroduction(Difficulty);
     // difficulty rating 
-    const int CodeA = rand() % Difficulty + Difficulty;
-    const int CodeB = rand() % Difficulty + Difficulty;
-    const int CodeC = rand() % Difficulty + Difficulty;
+    const int CodeA = rand() % Difficulty + 5;
+    const int CodeB = rand() % Difficulty + 5;
+    const int CodeC = rand() % Difficulty + 5;
     // create the sum of the product 
     const int CodeSum = CodeA + CodeB + CodeC;
     const int CodeProduct = CodeA * CodeB * CodeC;
     //print the hints in the game
-    std::cout << "There are 3 numbers in the password";
+    std::cout << "\nThere are 3 numbers in the combination";
     std::cout << "\n The sum of all 3 numbers = " << CodeSum;
     std::cout << "\n The product of all 3 numbers = " << CodeProduct << "\n";
     // create the input guesses 
@@ -31,12 +30,12 @@ bool PlayGame(int Difficulty)
     
     if(GuessSum == CodeSum && GuessProuct == CodeProduct)
     {
-        std::cout << "\nyou brought enough supplies for the whole quest";
+        std::cout << "\nyour correct";
         return true;
     }
     else
     {
-        std::cout << "\nyou died due to lack of prep";
+        std::cout << "\nyou failed";
         return false;
     }
 }
@@ -59,6 +58,6 @@ int main()
             ++ LevelDifficulty;
         }
     }
-    std::cout << "\nWell done, The guilds quest  board is currently empty congrats";
+    std::cout << "\nWell done";
     return 0;
 }
