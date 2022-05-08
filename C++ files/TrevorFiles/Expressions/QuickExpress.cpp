@@ -8,32 +8,32 @@ int main()
     //equals-equals if trevor is smart that day
     if(1 == 1)
     {
-        std::cout << "Equals";
+        std::cout << "Equals\n";
     }
     //less
-    if(1 - 1 < 1)
+    if(1 - 1 <= 1)
     {
-        std::cout << "Equals less";
+        std::cout << "Equals less\n";
     }
     //more
-    if(1 + 1 > 1)
+    if(1 + 1 >= 1)
     {
-        std::cout << "Equals Plus";
+        std::cout << "Equals More\n";
     }
     //and 
     if((1 + 1 == 2) && (2 + 2 == 4))
     {
-        std::cout << "And";
+        std::cout << "And\n";
     }
     //or 
     if((1 + 1 == 3) || (2 + 2 == 4))
     {
-        std::cout << "Or";
+        std::cout << "Or\n";
     }
     //not
     if(!(1 + 1 == 3))
     {
-        std::cout << "Not";
+        std::cout << "Not\n";
     }
 
 }
