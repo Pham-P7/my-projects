@@ -7,7 +7,7 @@ int main()
     //equals-equals if trevor is smart that day
     if(1 == 1)
     {
-        std::cout << "Equals\n";
+        std::cout << "\nEquals\n";
     }
     //less
     if(1 - 1 <= 1)
