@@ -14,9 +14,14 @@ void Introduction()
 }
 int PickPokemon()
 {
+    while(true)
     std::cout << "what will your first pokemon be?\n" << "(a) Charmander, (b) squrt gun, or (c) usless plant thing";
-    char FirstPick;
+    string FirstPick;
     std::cin >> FirstPick;
+    if(FirstPick == "a")
+    {
+        return;
+    }
 }
 bool Battle()
 {
