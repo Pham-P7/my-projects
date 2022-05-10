@@ -7,6 +7,12 @@ created by Phat Pham
 #include <fstream>
 using namespace std;
 
+std::ifstream input( "filename.txt" );
+
+for( std::string line; getline( input, line ); )
+{
+//do what you want for each line input here
+}
 
 class Pokemon
 {
