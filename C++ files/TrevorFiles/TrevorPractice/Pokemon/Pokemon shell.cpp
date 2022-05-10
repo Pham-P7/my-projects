@@ -1,5 +1,5 @@
 /*
-pokemon shell for Trevor
+pokemon shell
 created by Phat Pham
 */
 #include <iostream>
