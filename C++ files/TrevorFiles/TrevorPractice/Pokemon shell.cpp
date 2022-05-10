@@ -4,7 +4,10 @@ created by Phat Pham
 */
 #include <iostream>
 #include <string>
+#include <fstream>
 using namespace std;
+
+
 class Pokemon
 {
     public:
