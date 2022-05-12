@@ -5,7 +5,6 @@ created by Phat Pham
 #include <iostream>
 #include <string>
 using namespace std;
-
 class Pokemon
 {
     public:
