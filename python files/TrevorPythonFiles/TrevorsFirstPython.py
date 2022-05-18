@@ -2,6 +2,8 @@
 #many ways for same outcome
 # function is not needed in python
 print("Hello, World")
+print("Hello, \
+    World")
 print("Hello, " + "World")
 # we don't use "int" or "string" to say what type of data the variable will be
 x = "Hello, World"
