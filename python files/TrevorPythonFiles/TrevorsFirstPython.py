@@ -13,6 +13,3 @@ print(str.format("Hello, {0}", "world"))
 print(str.format("Hello, {0}", x))
 print("Hello, %s" %(x))
 # ; is also not needed ever in python at the end of each line of code
-def main():
-    print("Hello, World")
-
