@@ -82,7 +82,7 @@ initially saving the code, but you'll need to change it to a 2d list so that it 
 as a 2d grid instead of a 1d list.
 '''
 grid = [["1","2","3"],["4","5","6"],["7","8","9"]]
-#my functions
+#Functions
 def Avalue():
     return int(ind // 3.5)
 def Bvalue():
