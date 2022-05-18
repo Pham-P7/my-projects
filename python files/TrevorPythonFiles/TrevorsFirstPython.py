@@ -3,7 +3,7 @@
 # function is not needed in python
 print("Hello, World")
 print("Hello, \
-    World")
+World")
 print("Hello, " + "World")
 # we don't use "int" or "string" to say what type of data the variable will be
 x = "Hello, World"
@@ -12,8 +12,11 @@ print(x)
 print("%s" %(x))
 print(f"{x}")
 
+y = "Hello, "
 x = "World"
 #concatination of strings plus variable
+print(y  + x)
+#below are strings plus variable and we can flip it to work for y and not x
 print("Hello,", x)
 print("Hello, " + x)
 print(f"Hello, {x}")
