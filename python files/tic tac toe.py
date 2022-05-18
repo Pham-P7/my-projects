@@ -1,8 +1,6 @@
 
 from operator import index
 from random import randint #used in createOrder() function to randomize if player1 or player2 goes first
-
-
 #determines if player1 or player2 goes first by "flipping a coin."
 #returns True if player1 goes first and False if player2 goes first.
 def createOrder():
@@ -84,7 +82,7 @@ initially saving the code, but you'll need to change it to a 2d list so that it 
 as a 2d grid instead of a 1d list.
 '''
 grid = [["1","2","3"],["4","5","6"],["7","8","9"]]
-#my functions
+#Functions
 def Avalue():
     return int(ind // 3.5)
 def Bvalue():
