@@ -167,4 +167,7 @@ public void oWins(int a, int b, int c)
   }
   textfield.setText("O Wins");
 }
+public static void main(String[] args){
+
+}
 } 
