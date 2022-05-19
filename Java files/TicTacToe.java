@@ -87,7 +87,7 @@ import javax.swing.*; import java.awt.*; import java.awt.event.*; import java.ut
         oWins(2,4,6);
       }
     }
-    public void TicTacToe()
+    public void gameSetup()
     {
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       frame.setSize(800,800);
