@@ -20,10 +20,12 @@ import javax.swing.*; import java.awt.*; import java.awt.event.*; import java.ut
       if(random.nextInt(2) == 0)
       {
         textfield.setText("X turn");
+        playerturn = true;
       }
       else
       {
         textfield.setText("O turn");
+        playerturn = false;
       }
     }
       public String checkWinner() {
