@@ -149,6 +149,6 @@ import javax.swing.*; import java.awt.*; import java.awt.event.*; import java.ut
   }
 
 public static void main(String[] args){
-
+  tictactoe();
 }
 } 
