@@ -9,7 +9,7 @@ int main()
     {
         i++;
         std::cout << i << "\n";
-        if(i == 76)
+        if(i == 100)
         {
             break;
         }
