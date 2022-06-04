@@ -1,3 +1,4 @@
+#encription key
 import random
 def placeFinder():
     global AOrder
