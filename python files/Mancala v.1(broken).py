@@ -39,7 +39,8 @@ while winner == 0:
             break
         print1stBoard()
         board[0].reverse()
-        slot = int(input("what slot will you pick?  1-6 ") - 1)
+        slot =input("what slot will you pick?  1-6 ")
+        slot = (int(slot) - 1)
         if slot not in range(6) or board[1][slot] == 0:
             valid = False 
         else:
