@@ -59,23 +59,23 @@ int Twos()
     int TwoCount;
     if(D1() == 2)
     {
-        TwoCount++;
+        TwoCount += 2;
     }
     if(D2() == 2)
     {
-        TwoCount++;
+        TwoCount += 2;
     }
     if(D3() == 2)
     {
-        TwoCount++;
+        TwoCount += 2;
     }
     if(D4() == 2)
     {
-        TwoCount++;
+        TwoCount += 2;
     }
     if(D5() == 2)
     {
-        TwoCount++;
+        TwoCount += 2;
     }
     return TwoCount;
 }
@@ -85,23 +85,23 @@ int Threes()
     int ThreeCount;
     if(D1() == 3)
     {
-        ThreeCount++;
+        ThreeCount += 3;
     }
     if(D2() == 3)
     {
-        ThreeCount++;
+        ThreeCount += 3;
     }
     if(D3() == 3)
     {
-        ThreeCount++;
+        ThreeCount += 3;
     }
     if(D4() == 3)
     {
-        ThreeCount++;
+        ThreeCount += 3;
     }
     if(D5() == 3)
     {
-        ThreeCount++;
+        ThreeCount += 3;
     }
     return ThreeCount;
 }
@@ -110,23 +110,23 @@ int Fours()
     int FourCount;
     if(D1() == 4)
     {
-        FourCount++;
+        FourCount += 4;
     }
     if(D2() == 4)
     {
-        FourCount++;
+        FourCount += 4;
     }
     if(D3() == 4)
     {
-        FourCount++;
+        FourCount += 4;
     }
     if(D4() == 4)
     {
-        FourCount++;
+        FourCount += 4;
     }
     if(D5() == 4)
     {
-        FourCount++;
+        FourCount += 4;
     }
     return FourCount;
 }
@@ -135,23 +135,23 @@ int Fives()
     int FiveCount;
     if(D1() == 5)
     {
-        FiveCount++;
+        FiveCount += 5;
     }
     if(D2() == 5)
     {
-        FiveCount++;
+        FiveCount += 5;
     }
     if(D3() == 5)
     {
-        FiveCount++;
+        FiveCount += 5;
     }
     if(D4() == 5)
     {
-        FiveCount++;
+        FiveCount += 5;
     }
     if(D5() == 5)
     {
-        FiveCount++;
+        FiveCount += 5;
     }
     return FiveCount;
 }
@@ -160,23 +160,23 @@ int Sixs()
     int SixCount;
     if(D1() == 6)
     {
-        SixCount++;
+        SixCount += 6;
     }
     if(D2() == 6)
     {
-        SixCount++;
+        SixCount += 6;
     }
     if(D3() == 6)
     {
-        SixCount++;
+        SixCount += 6;
     }
     if(D4() == 6)
     {
-        SixCount++;
+        SixCount += 6;
     }
     if(D5() == 6)
     {
-        SixCount++;
+        SixCount += 6;
     }
     return SixCount;
 }
