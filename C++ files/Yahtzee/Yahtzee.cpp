@@ -1,6 +1,7 @@
 #include <iostream>
 #include <ctime>
-
+#include <string>
+using namespace std; 
 int D1()
 {
     return (rand() % 6) + 1;
@@ -27,10 +28,16 @@ int D5()
 
 void main()
 {
-    for(int i = 0; i < 10; i++)
+    std::cout << "roll?\n";
+    string YN;
+    std::cin >> YN;
+    while((YN == "Y") || (YN == "y"))
     {
-        srand(i);
-        int Roll = D1();
-        std::cout << D1() << D2() << D3() << D4() << D5() << "\n\n";
+        int i = 0;
+        i++;
+        srand(time((NULL)));
+        std::cout << D1() << " " << D2() << " " << D3() << " " << D4() << " " << D5() << "\n";
+        std::cout << "roll?\n";
+        std::cin >> YN;
     }
 }
