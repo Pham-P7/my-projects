@@ -14,4 +14,10 @@ int main(){
     {
         std::cout << i << "\n";
     }
+    int i = 0;
+    do
+    {
+        std::cout << i << "\n";
+    } while (i < 5);
+    
 }
