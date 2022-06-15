@@ -1,4 +1,3 @@
-from operator import index
 from random import randint
 YN = input("do you wish to roll?")
 while(YN == "y" or YN == "Y"):
