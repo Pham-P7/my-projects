@@ -1,6 +1,9 @@
 from random import randint
 YN = input("do you wish to roll?")
+playerOp = [[True,True,True,True,True,True,True,True,True,True,True,True,True] \
+,[True,True,True,True,True,True,True,True,True,True,True,True,True]]
 while(YN == "y" or YN == "Y"):
+    Turn = True #set to false when next player's turn
     rolls = []
     Ace = 0
     Two = 0
