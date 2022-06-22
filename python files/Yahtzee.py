@@ -2,7 +2,7 @@ from random import randint
 YN = input("do you wish to roll?")
 playerOp = [[True,True,True,True,True,True,True,True,True,True,True,True,True] \
 ,[True,True,True,True,True,True,True,True,True,True,True,True,True]]
-while(YN == "y" or YN == "Y"):
+while(YN == "y" or YN == "Y" or YN == "yes" or YN == "yes"):
     Turn = True #set to false when next player's turn
     rolls = []
     Ace = 0
@@ -32,8 +32,9 @@ while(YN == "y" or YN == "Y"):
         for i in rolls:
             c = i + 1
             while(c <= 5):
-                if i == c:
-                    sCount += 1
+                if rolls[i] == rolls[c]:
+                    sCount = sCount + 1
+                
     if(Turn):
         print("These are your options")
         
