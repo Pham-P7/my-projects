@@ -29,4 +29,11 @@ while(YN == "y" or YN == "Y"):
             Five += 5
         elif rolls[i] == 6:
             Six += 6
-    
+        for i in rolls:
+            c = i + 1
+            while(c <= 5):
+                if i == c:
+                    sCount += 1
+    if(Turn):
+        print("These are your options")
+        
