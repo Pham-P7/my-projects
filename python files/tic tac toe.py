@@ -73,7 +73,7 @@ def checkWinner():
             if i == ' ':
                 return 0
     return 3
-
+    
 '''
 Start code under here! I initialized the grid variable so that there are no errors when
 initially saving the code, but you'll need to change it to a 2d list so that it functions
