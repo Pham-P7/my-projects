@@ -3,7 +3,7 @@
 # main function is not needed in python
 print("Hello, World")
 print("Hello, \
-World")
+World") # this is just spliting it into more lines *it is not a new format
 print("Hello, " + "World")
 # we don't use "int" or "string" to say what type of data the variable will be
 x = "Hello, World"
