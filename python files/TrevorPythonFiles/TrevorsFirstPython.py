@@ -15,7 +15,7 @@ print(f"{x}")
 y = "Hello, "
 x = "World"
 # concatination of strings plus variable
-print(y  + x)
+print(y + x)
 # below are strings plus variable and we can flip it to work for y and not x
 print("Hello,", x)
 print("Hello, " + x)
