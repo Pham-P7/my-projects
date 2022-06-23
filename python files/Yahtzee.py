@@ -33,7 +33,7 @@ while(YN == "y" or YN == "Y" or YN == "yes" or YN == "yes"):
         for i in rolls:
             c = i + 1
             while(c <= 5):
-                if(rolls[i] != rolls[1] and rolls[i] == rolls[c]):
+                if(rolls[i] != rolls[0] and rolls[i] == rolls[c]):
                     SdCount = SdCount + 1
                 elif rolls[i] == rolls[c]:
                     sCount = sCount + 1

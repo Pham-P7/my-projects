@@ -1,5 +1,3 @@
-
-from operator import index
 from random import randint #used in createOrder() function to randomize if player1 or player2 goes first
 #determines if player1 or player2 goes first by "flipping a coin."
 #returns True if player1 goes first and False if player2 goes first.
