@@ -24,3 +24,8 @@ print(str.format("Hello, {0}", "world"))
 print(str.format("Hello, {0}", x))
 print("Hello, %s" %(x))
 # ; is also not needed ever in python at the end of each line of code
+# at the bottom is another way of printing usign a list but i could format this is so many other ways 
+# im just too lazy
+list = ["H","e","l","l","o",","," ","W","o","r","l","d"]
+for i in range(len(list)):
+    print(list[i], end = "")
