@@ -12,5 +12,4 @@ int main()
   for (int elem : myarray){
     cout << elem << '\n';
   }
-
 }
