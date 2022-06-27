@@ -9,6 +9,7 @@ int main()
   for (int i=0; i<myarray.size(); ++i){
     ++myarray[i];
   }
+  
   for (int elem : myarray){
     cout << elem << '\n';
   }
