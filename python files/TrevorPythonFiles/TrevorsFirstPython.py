@@ -11,7 +11,6 @@ x = "Hello, World"
 print(x)
 print("%s" %(x))
 print(f"{x}")
-
 y = "Hello, "
 x = "World"
 # concatination of strings plus variable
